@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <title>Ben Galassi</title>
+    <style>
+        body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+        }
+
+        header {
+   background-color: #1a1a1a;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+        }
+
+  h1 {
+            font-size: 3em;
+            font-weight: bold;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        h2 {
+            font-size: 2em;
+            font-weight: bold;
+	    font-family: 'Montserrat', sans-serif;
+        }
+
+        p {
+            font-style: normal;
+	    font-size: 1.5em;
+        }
+
+        nav {
+     display: flex;
+    justify-content: center;
+    background-color: #333333;
+    padding: 0.5rem;
+    width: 100%;
+        }
+
+ nav a {
+    font-size: 2em;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 2rem;
+    transition: all 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #42aaff;
+        }
+	nav a.active {
+    	    color: #42aaff;
+font-weight: bold;
+	}
+        
+.content {
+    padding: 2rem;
+    display: none;
+    text-align: center;
+    width: 100%;
+        }
+
+footer {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+        }
+
+.profile-picture {
+    width: 150px; /* Adjust the width as needed */
+    height: 150px; /* Set the height to match the width for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+}
+
+.carousel {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.carousel img {
+    width: 200px; /* Set the width of carousel items */
+    height: auto;
+}
+
+
+
+/* mouse over link */
+a:hover {
+      	    color: #42aaff;
+font-weight: bold;
+}
+
+/* selected link */
+a:active {
+      	    color: #42aaff;
+font-weight: bold;
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+<img src="https://media.licdn.com/dms/image/C5603AQGnVD0ld_B6aw/profile-displayphoto-shrink_800_800/0/1588930174501?e=2147483647&v=beta&t=uHeUYA1qKWQTcScxWX9a5PBy1YjGIhTPFgvXOHCglV4" alt="Your Name" class="profile-picture">
+        <h1>Ben Galassi</h1>
+        <p><i>User Researcher @Bungie</i></p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#games">Games</a>
+        <a href="#story">Story</a>
+        <a href="#process">Process</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about" class="content">
+        <h2>About Me</h2>
+        <p>Hey there! My name is Ben, and I am a mixed-methods User Researcher with experience in the video game and consumer electronics industries. I am passionate about crafting experiences that inspire delight and friendship. Currently, I am a User Researcher at Bungie working on a new game called Marathon. My academic background is in Cognitive Science & Human-Centered Design.
+
+</p>
+    </section>
+
+    <section id="games" class="content">
+        <h2>Titles I've Worked On</h2>
+        <p>Here are some of the games that I have worked over the years...</p>
+<section id="games" class="content">
+    <div class="carousel">
+        <img src="https://th.bing.com/th/id/OIP.V8Mcd1XTQ8wtC6F94Rao3QHaEK?w=322&h=181&c=7&r=0&o=5&pid=1.7" alt="Game 1">
+        <img src="https://th.bing.com/th/id/OIP.K68xiOs8GqJIvMGvapJ7fgHaEK?w=284&h=180&c=7&r=0&o=5&pid=1.7" alt="Game 2">
+        <img src="https://th.bing.com/th/id/OIP.rDy_ca2L5pmcSdRC8rqHqwHaEK?w=278&h=180&c=7&r=0&o=5&pid=1.7" alt="Game 3">
+        <img src="https://th.bing.com/th/id/OIP.Jf23fFSLtaHOkr-kqRDgfAHaEK?w=272&h=180&c=7&r=0&o=5&pid=1.7" alt="Game 4">
+        <img src="https://th.bing.com/th/id/OIP.hN4yHiuAfDilJZge0ImvIQHaEK?w=322&h=181&c=7&r=0&o=5&pid=1.7" alt="Game 5">
+    </div>
+</section>
+    </section>
+
+    <section id="story" class="content">
+        <h2>My Experience & Story</h2>
+	<p>Inspired by my study of the human brain, I decided to apply my knowledge to the gaming industry.</p>
+ <a href="https://docs.google.com/document/d/1RzdPKhSbrxeRztI2WpUjuy9L28YcP6bTKJnPttAmRzY/view" target="_blank">View Resume</a>
+    </section>
+    <section id="process" class="content">
+        <h2>How I Do Research</h2>
+        <p>I use a mixture of qualitative and quantitative methods, while testing hypotheses and triangulating insights.</p>
+    </section>
+
+    <section id="contact" class="content">
+        <h2>Feel free to contact me at...</h2>
+        <p>Email: bengalassi@gmail.com</p>
+        <p>Phone: 203-207-1133</p>
+	<p>Location: Edmonds, WA</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Ben Galassi. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Get all content sections
+        const contentSections = document.querySelectorAll('.content');
+
+        // Get all navigation links
+        const navLinks = document.querySelectorAll('nav a');
+
+        // Function to show the selected section and hide others
+        function showContent(sectionId) {
+            contentSections.forEach(section => {
+                if (section.id === sectionId) {
+                    section.style.display = 'block';
+                } else {
+                    section.style.display = 'none';
+                }
+            });
+        }
+
+        // Add click event listeners to navigation links
+        navLinks.forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const sectionId = link.getAttribute('href').substring(1);
+                showContent(sectionId);
+            });
+        });
+function showContent(sectionId) {
+    contentSections.forEach(section => {
+        if (section.id === sectionId) {
+            section.style.display = 'block';
+        } else {
+            section.style.display = 'none';
+        }
+    });
+
+    // Mark the clicked tab as active
+    navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href').substring(1) === sectionId) {
+            link.classList.add('active');
+        }
+    });
+}
+    </script>
+</body>
+
+</html>
